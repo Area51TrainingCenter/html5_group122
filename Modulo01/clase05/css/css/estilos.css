@@ -1,0 +1,64 @@
+
+
+/** selector de tipo TAG **/
+body{
+
+	font-family: arial;
+}
+
+h1{
+	color: red;
+}
+
+/** selector por class **/
+
+.parrafo1{
+	color:blue;
+	
+}
+.parrafo2{
+	color:red;
+}
+.parrafo3{
+		color:blue;
+}
+.parrafo4{
+	color:red;
+}
+
+p{
+	font-family: arial;
+}
+
+.texto1{
+	color: purple;
+}
+
+.texto-bold{
+	font-weight: bold;
+}
+
+
+
+.parrafo-azul{
+	color: blue;
+}
+.parrafo-rojo{
+	color: red;
+}
+
+
+
+.alta{
+	color: purple;
+
+}
+
+
+
+/** selector por ID **/
+/* solo se puede asignar un ID por elemento */
+
+#txt{
+	color: skyblue;
+}
