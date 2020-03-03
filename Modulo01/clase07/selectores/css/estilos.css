@@ -1,0 +1,54 @@
+h1{
+	color: red;
+}
+body{
+	font-family: arial;
+}
+.cuerpo{
+	
+}
+.parrafo1{
+	
+	color:blue;
+	color:#3f4db5;
+	color:rgb(141, 217, 151);
+	color:hsl(299deg, 63%, 67%);
+	color:rgba(0,0,0,0.5);
+	color:hsla(299deg, 63%, 67%,0.4);
+	color: orange;
+}
+.subtexto1{
+	color: green;
+}
+
+.parrafo2{
+	font-size:30px; 
+	line-height: 35px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+}
+
+
+.parrafo3{
+	text-transform: lowercase;
+	text-transform: uppercase;
+	text-transform: capitalize;
+}
+
+.parrafo4{
+	text-decoration: underline;
+	text-decoration: line-through;
+}
+
+.parrafo5{
+	text-align: left;
+	text-align: right;
+	text-align: center;
+	text-align: justify;
+
+}
+
+.resaltado{
+	background-color: yellow;
+	color: red;
+}

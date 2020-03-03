@@ -1,0 +1,25 @@
+.title{
+	background-color: pink;
+	width: 300px;
+	height: auto;
+}
+.text1{
+background-color: yellow;
+}
+.text2{
+	background-color: orange;
+}
+.text3{
+	background-color: green;
+	width: 5000px;
+	height: 300px;
+}
+
+/*** display:block***/
+tu puedes modificar sus dimensiones
+ocupa todo el ancho de la fila , lo que evita poder tener elementos a los lados
+
+
+/*** display:inline ***/
+tu no puedes modificar sus dimensiones
+solo ocupa el contenido que tiene asignado en la fila , lo que permite tener elementos a los lados

@@ -1,0 +1,74 @@
+.contenedor{
+	width: 1000px;
+	margin:0 auto;
+
+	background-color: gray;
+}
+
+.bloque1{
+	height: 100px;
+
+	background-color: orange;
+
+}
+
+
+.bloque2{
+	width: 498px;
+	height: 300px;
+	background-color: red;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bloque3{
+	width: 498px;
+	height: 300px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.bloque4{
+	
+	height: 100px;
+	background-color: skyblue;
+	
+
+}
+
+.bloque5{
+	width: 330px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.azul{
+	background-color: blue;
+}
+.verde{
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
+}
+/*
+
+.bloque6{
+	width: 330px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: orange;
+}
+
+
+.bloque7{
+	width: 330px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: pink;
+}*/
