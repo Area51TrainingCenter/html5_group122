@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+
+}
+.contenedor{
+	width: 1000px;
+	background-color: blue;
+}
+
+.bloque1{
+	width: 495px;
+	background-color: pink;
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px;
+	border:10px solid orange;
+}
+
+
+.bloque2{
+	width: 495px;
+	background-color: skyblue;
+		display: inline-block;
+	vertical-align: top;
+	border:50px solid black;
+
+	padding: 20px;
+}

@@ -1,0 +1,21 @@
+.parrafo
+{
+	background-color: gray;
+	margin:50px;
+
+	margin:20px 40px;
+	/** 
+	margin: top,bottom left,right; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	**/
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	
+
+}

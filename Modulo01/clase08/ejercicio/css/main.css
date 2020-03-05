@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+.contenedor{
+	/*width: 1000px;*/
+	text-align: center;
+	background-color: #1A60A8;
+	padding-top: 100px;
+}
+img{
+	vertical-align: top;
+}
+.bloque1{
+	/*background-color: gray;*/
+	width: 495px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.bloque2{
+	padding-top: 70px;
+	/*background-color: pink;*/
+	width: 495px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 40px;
+	padding-right: 50px;
+	text-align: left;
+	color: white;
+}
+
+.parrafo{
+	line-height: 1.4;
+}
