@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.contenedor{
+	width: 400px;
+	background-color: skyblue;
+	margin:50px;
+	padding: 70px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: black;
+
+	border:10px solid red;
+	border-left:10px solid blue;
+	border-top: 10px solid yellow;
+	border-right: 10px solid green;
+	border-bottom: 10px solid red;
+}
+
+.contenedor2{
+	width: 400px;
+	height: 300px;
+	background-color: red;
+
+}
