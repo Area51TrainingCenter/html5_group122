@@ -1,0 +1,21 @@
+.contenedor{
+	width: 1170px;
+	margin:0 auto;
+}
+
+.logo-site{
+	width: 200px;
+
+}
+.logo{
+	background-color: indigo;
+	float: left;
+}
+.navsite{
+	background-color: red;
+	float: right;
+}
+
+.navsite ul li{
+	float: left;
+}
