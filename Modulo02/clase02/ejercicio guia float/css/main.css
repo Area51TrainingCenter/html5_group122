@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+}
+a,a:hover{
+	color: inherit;
+	text-decoration: none;
+
+}
+body{
+	background-color: #ececec;
+	font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+	width: 1265px;
+	margin:0 auto;
+	background-color: #ffffff;
+
+}
+
+.header-site{
+
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.logo-site{
+
+	text-align: center;
+	margin-bottom: 80px;
+}
+.nav-site{
+
+
+
+}
+.nav-site ul{
+	
+	text-align: center;
+	font-weight:700;
+
+
+}
+.nav-site ul li{
+	display: inline-block;
+	vertical-align: top;
+
+	padding: 0px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right: 2px solid gray;
+
+}
+.nav-site ul li.no-border{
+	border-right: 0px solid #fff;
+}
+
+
+
+
+
+
+.section-recetas{
+	
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.columna1{
+
+	width: 255px;
+	float:left;
+}
+.columna2{
+
+	width: 540px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.item-type-1{
+	margin-bottom: 20px;
+
+}
+.item-type-1 h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 19px;
+	line-height: 1.5;
+	font-weight: 700;
+	text-align: center;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.item-type-2 .fecha{
+	font-size: 13px;
+	font-weight: 700;
+	color: gray;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	
+	display: block;
+	text-align: center;
+}
+.item-type-2 h2{
+	font-size: 26px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.link-red{
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	background-color: red;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.caja-boton{
+	
+	text-align: center;
+}

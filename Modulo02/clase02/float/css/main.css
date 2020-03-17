@@ -1,0 +1,27 @@
+.contenedor{
+	width: 1024px;
+	margin:0 auto;
+	background-color: gray;
+}
+
+.columna1{
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	float: left;
+}
+.columna2{
+	width: 300px;
+	height: 200px;
+	background-color: blue;
+	float: left;
+}
+.columna3{
+	width: 300px;
+	height: 150px;
+	background-color: yellow;
+	float: left;
+}
+.clearfix{
+	clear: both;
+}
