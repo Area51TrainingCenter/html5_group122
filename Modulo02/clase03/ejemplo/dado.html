@@ -33,10 +33,34 @@
 		.abajo{
 			align-self: flex-end;
 		}
+		.centro{
+			align-self: center;
+		}
 		.dado3{
+			display:flex;
+			justify-content: space-between;
+
+		}
+		.dado4{
 			display: flex;
 			justify-content: space-between;
 		}
+
+	.columna{
+	
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}		
+	.dado5{
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.dado6{
+		display: flex;
+		justify-content: space-between;
+	}
 	</style>
 </head>
 <body>
@@ -51,33 +75,51 @@
 
 	<div class="dado dado3">
 		<div class="punto"></div>
-		<div class="punto medio"></div>
+		<div class="punto centro"></div>
 		<div class="punto abajo"></div>
 	</div>
 
 	<div class="dado dado4">
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto"></div>	
+		</div>
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto"></div>	
+		</div>
+
+		
 	</div>
 
 
 	<div class="dado dado5">
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto "></div>
+		</div>
+
+		<div class="punto centro"></div>
+		
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto "></div>
+		</div>
 	</div>
 
 	<div class="dado dado6">
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
-		<div class="punto"></div>
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto "></div>
+		</div>
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto "></div>
+		</div>
+		<div class="columna">
+			<div class="punto"></div>
+			<div class="punto "></div>
+		</div>
 	</div>
 
 
