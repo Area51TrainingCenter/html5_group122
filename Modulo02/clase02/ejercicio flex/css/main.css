@@ -1,0 +1,59 @@
+.caja{
+width: 600px;
+height: 600px;
+background-color: skyblue;	
+display: flex;
+flex-direction: column;
+/** alinear a los elementos en el eje principal **/
+justify-content:space-evenly;
+/*horizontal*/
+/** alinear a los elementos en el eje secundario **/
+align-items: flex-start;
+/*vertical*/
+
+}
+
+.item1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}
+
+.item2{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+
+.contenedor{
+	width: 1024px;
+	margin:0 auto;
+	font-family: arial;
+}
+.nav-site{
+	background-color: red;
+}
+
+.nav-site ul {
+display: flex;
+justify-content: space-evenly;
+}
+.nav-site ul li{
+
+padding: 10px;
+background-color: yellow;
+}
+
+.contenido{
+	width: 100%;
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+
+}
+.col{
+width: 300px;
+height: 400px;
+background-color: indigo
+}

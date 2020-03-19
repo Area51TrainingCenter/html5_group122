@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 500px;
+	height: 400px;
+	background-color: indigo;
+	display: flex;
+	flex-direction: row;
+	/* eje principal */
+	justify-content:flex-end; 
+	/* eje secundario */
+	align-items:center;
+	flex-wrap: wrap;
+}
+.item1{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+
+}
+
+.item2{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+}
+
+.barra{
+	display: flex;
+}
+.cambio1{
+	align-self: flex-start;
+}
+.cambio2{
+	align-self: flex-end;
+}
