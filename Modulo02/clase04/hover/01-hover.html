@@ -28,16 +28,48 @@
 
 		.title:hover{
 			color: green;
+		
+		
 		}
 		.parrafo:hover{
 			background-color: green;
 			color: white;
+
 		}
 		.btn:hover{
 			background-color: red;
 			color: yellow;
+		}
+		.item{
+			width: 400px;
+			background-color: #ececec;
+			padding: 15px;
+			margin-top: 40px;
+		}
+		.title-item{
+
+		}
+		.enlace{
+			background-color: red;
+			color: white;
 			font-weight: bold;
-			font-size: 20px;
+			display: inline-block;
+			padding: 10px 20px;
+		}
+		/*.enlace:hover{
+			background-color: blue;
+		}*/
+
+		/*.item:hover{
+			background-color: blue;
+
+		}*/
+
+		.item:hover .enlace{
+			background-color: green;
+		}
+		.item:hover .title-item{
+			background-color: green;
 		}
 	</style>
 </head>
@@ -45,6 +77,11 @@
 	<h1 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime.</h1>
 	<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam maiores, asperiores sapima, atque sint praesentium.</p>
 	<a href="" class="btn">atque sint</a>
+
+	<div class="item">
+		<h2 class="title-item">asperiores sapima, atque sint praesentium</h2>
+		<a href="" class="enlace">Ir</a>
+	</div>
 
 </body>
 </html>
