@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.container{
+			width: 1024px;
+			margin:0 auto;
+			font-family: arial;
+		}
+		.title:before{
+			content: "Title: ";
+			text-decoration: underline;
+			background-color: red;
+			padding: 5px;
+			color: white;
+			margin-right: 10px;
+
+		}
+		ul{
+			list-style: none;
+		}
+		.lista1 li:before{
+			content: "*";
+			color: blue;
+			font-weight: bold;
+		}
+		.lista2 li:after{
+			content: ":";
+			color: red;
+			font-weight: bold;
+		}
+		.lista3 li{
+			margin-bottom: 10px;
+		}
+		.lista3 li:before{
+			content: "";
+			background-image: url(check.png);
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background-size: cover;
+			background-position: center;
+			
+			vertical-align: middle;
+			margin-right: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1 class="title">Lorem ipsum dolor sit amet, consectetur adipsit neque facilis?</h1>
+	<ul class="lista1">
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+	</ul>
+
+	<ul class="lista2">
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+	</ul>
+
+	<ul class="lista3">
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+	</ul>
+	 </div>
+</body>
+</html>

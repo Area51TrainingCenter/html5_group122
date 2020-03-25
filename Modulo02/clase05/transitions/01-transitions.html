@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			font-family: arial;
+		}
+		.title{
+			color: red;
+			transition-property: color;
+			transition-duration: 3s;
+			transition-timing-function: linear;
+			transition-delay: 0s
+		}
+		.title:hover{
+			color: green;
+		}
+		.bloque{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			transition-property: background-color,margin;
+			transition-duration: 1s;
+			transition-timing-function: linear;
+			transition-delay: 0s
+		}
+		.bloque:hover{
+			background-color: blue;
+			margin-top: 40px;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="title">Lorem ipsum dolor sit amet</h1>
+	<div class="bloque"></div>
+</body>
+</html>
