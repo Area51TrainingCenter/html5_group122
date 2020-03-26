@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.contenedor{
+			font-family: arial;
+			width: 1024px;
+			margin:0 auto;
+		}
+		a{
+			text-decoration: none;
+			color: inherit;
+		}
+		.item{
+			width: 220px;
+			padding-bottom: 10px;
+			transition: all 0.3s linear 0s;
+		}
+		.item h2{
+			padding: 0px 10px
+		}
+		.item img{
+			vertical-align: top;
+		}
+		.btn-comprar{
+			background-color: black;
+			color: white;
+			display: inline-block;
+			padding: 10px 15px;
+			margin-left: 10px;
+			transition: all 0.3s linear 0s;
+		}
+		
+		.list-menu{
+			text-align: center;
+		}
+		.list-menu li{
+			display: inline-block;
+			vertical-align: top;
+			padding: 10px 15px;
+			transition-property: all;
+			transition-duration: 0.3s;
+			transition-timing-function: linear;
+			transition-delay: 0s;
+		}
+		
+		.list-item
+		{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 50px;
+			margin-bottom:60px;
+		}
+		.title-site{
+			text-align: center;
+		}
+		.btn-ver-mas{
+			width: 400px;
+			display: block;
+			margin:0 auto;
+			background-color: skyblue;
+			color: white;
+			padding: 10px;
+			text-align: center;
+			transition:all 0.3s linear 0s;
+		}
+
+
+		.item:hover .btn-comprar{
+			background-color: red;
+			color: white;
+
+		}
+
+		.list-menu li:hover{
+			background-color: red;
+			color: white;
+
+		}
+
+		.item:hover{
+			background-color: #ececec;
+		}
+
+		.btn-ver-mas:hover{
+			background-color: blue;
+		
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+			<h1 class="title-site">
+				<img src="https://via.placeholder.com/300x60" alt="">
+			</h1>
+			<nav>
+				<ul class="list-menu">
+					<li>Inicio</li>
+					<li>Nosotros</li>
+					<li>Contacto</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="list-item">
+		<article class="item">
+			<img src="https://via.placeholder.com/220x200" alt="">
+			<h2>Lorem ipsum dolor sit amet, consectetur adip</h2>
+			<a href="" class="btn-comprar">Comprar</a>
+		</article>
+		<article class="item">
+			<img src="https://via.placeholder.com/220x200" alt="">
+			<h2>Lorem ipsum dolor sit amet, consectetur adip</h2>
+			<a href="" class="btn-comprar">Comprar</a>
+		</article>
+		<article class="item">
+			<img src="https://via.placeholder.com/220x200" alt="">
+			<h2>Lorem ipsum dolor sit amet, consectetur adip</h2>
+			<a href="" class="btn-comprar">Comprar</a>
+		</article>
+
+		</div>
+		<a class="btn-ver-mas" href="">Ver más noticias</a>
+	</div>
+
+</body>
+</html>

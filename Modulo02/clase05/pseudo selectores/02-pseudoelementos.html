@@ -9,31 +9,47 @@
 			margin:0 auto;
 			font-family: arial;
 		}
+
+		
 		.title:before{
 			content: "Title: ";
-			text-decoration: underline;
-			background-color: red;
-			padding: 5px;
-			color: white;
-			margin-right: 10px;
-
+			color: red;
+			background-color: black;
+			padding: 20px;
+			display: inline-block;
+		}
+		.title:after{
+			content: "FIN DE CONTENIDO";
+			color: red;
+			background-color: white;
 		}
 		ul{
 			list-style: none;
 		}
 		.lista1 li:before{
-			content: "*";
+			content: "®";
 			color: blue;
 			font-weight: bold;
 		}
 		.lista2 li:after{
-			content: ":";
+			content: ": fin de item";
 			color: red;
 			font-weight: bold;
 		}
 		.lista3 li{
 			margin-bottom: 10px;
 		}
+		.lista3 li:before{
+			content: "";
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+			
+			background-image: url("check.png");
+			background-size: cover;
+			margin-right: 10px;
+		}
+		/*
 		.lista3 li:before{
 			content: "";
 			background-image: url(check.png);
@@ -45,12 +61,19 @@
 			
 			vertical-align: middle;
 			margin-right: 5px;
-		}
+		}*/
 	</style>
 </head>
 <body>
 	<div class="container">
-	<h1 class="title">Lorem ipsum dolor sit amet, consectetur adipsit neque facilis?</h1>
+	<h1 class="title">
+	
+	Lorem ipsum dolor sit amet, consectetur adipsit neque facilis? 
+
+	</h1>
+
+	
+
 	<ul class="lista1">
 		<li>Item1</li>
 		<li>Item1</li>
@@ -66,10 +89,9 @@
 	</ul>
 
 	<ul class="lista3">
-		<li>Item1</li>
-		<li>Item1</li>
-		<li>Item1</li>
-		<li>Item1</li>
+		<li><img src="check.png">Item1</li>
+		<li><img src="check.png">Item1</li>
+		<li><img src="check.png">Item1</li>
 	</ul>
 	 </div>
 </body>
