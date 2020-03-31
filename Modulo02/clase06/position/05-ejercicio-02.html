@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.item{
+			width: 220px;
+			margin:30px;
+			font-family: arial;
+			
+			position: relative;
+		}
+		.icono{
+			width: 40px;
+			height: 40px;
+			background-color: black;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+		.text-series{
+			
+			
+			display: inline-block;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			position: relative;
+		}
+		.text-series:before{
+			content: "";
+			display: inline-block;
+			width: 50px;
+			height: 1px;
+			background-color: black;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+
+		}
+		.text-series:after{
+			content: "";
+			display: inline-block;
+			width: 50px;
+			height: 1px;
+			background-color: black;
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+		}
+
+	</style>
+</head>
+<body>
+	<article class="item">
+		<div class="icono"></div>
+		<img src="https://via.placeholder.com/220x150" alt="">
+		<span class="text-series">
+		Lorem ipsum 
+		</span>
+		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing </h2>
+		<a href="">Leer más</a>
+	</article>
+	
+</body>
+</html>
