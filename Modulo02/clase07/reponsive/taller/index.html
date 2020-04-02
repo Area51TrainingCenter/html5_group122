@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 	<style>
+		*{
+			margin:0;
+			padding: 0;
+		}
 		.container{
 			width: 1024px;
 			margin:0 auto;
@@ -12,7 +17,16 @@
 		header{
 			display: flex;
 			padding: 10px;
+			flex-direction: row;
 			justify-content: space-between;
+		
+			margin-bottom: 20px;
+		}
+		.logo-site{
+	
+		}
+		.nav-site{
+		
 		}
 		.nav-site ul li{
 			display: inline-block;
@@ -28,7 +42,95 @@
 		.item{
 			width: 320px;
 			margin-bottom: 20px;
+		
 
+		}
+		.item img{
+			width: 100%;
+		}
+		.ico-menu{
+			width: 30px;
+			display: none;
+		}
+
+		@media screen and (min-width: 0px) and (max-width: 480px){
+			.container{
+				width: 100%;
+			}
+			header{
+
+				flex-direction: row;
+				
+				padding: 30px;
+			}
+			.nav-site{
+				margin-top: 40px;
+			}
+			.list-item{
+				flex-direction: column;
+				align-items: center;
+			}
+			.item{
+				width: 90%;
+			}
+			.nav-site{
+				display: none;
+			}
+
+			.item p{
+				display: none;
+			}
+			.ico-menu{
+			
+				display: block;
+			}
+		}
+		@media screen and (min-width: 481px) and (max-width: 768px){
+			
+			.container{
+				width: 100%;
+			}
+			header{
+
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 30px;
+			}
+			.nav-site{
+				margin-top: 40px;
+			}
+			.item{
+				width: 48%;
+			}
+			
+			.list-item{
+			justify-content: space-evenly;
+			}
+
+
+		}
+		@media screen and (min-width: 769px) and (max-width: 1024px){
+			.container{
+				width: 100%;
+			}
+			header{
+
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 30px;
+			}
+			.nav-site{
+				margin-top: 40px;
+			}
+			.item{
+				width: 48%;
+			}
+			
+			.list-item{
+			justify-content: space-evenly;
+			}
 		}
 	</style>
 </head>
@@ -44,6 +146,7 @@
 
 				</ul>
 			</nav>
+			<span><img class="ico-menu" src="https://cdn.onlinewebfonts.com/svg/img_86346.png" alt=""></span>
 		</header>
 		<section class="list-item">
 			<article class="item">

@@ -3,11 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	
+
 	<style>
+		*{
+			box-sizing: border-box;
+		}
 		.contenedor{
 			width: 1024px;
 			margin:0 auto;
 			text-align: center;
+			background-color: black;
 		}
 		.bloque1{
 			width: 500px;
@@ -15,6 +22,7 @@
 			background-color: orange;
 			display: inline-block;
 			vertical-align: top;
+			border:5px solid red;
 		}
 		.bloque3{
 			width: 1000px;
@@ -35,6 +43,78 @@
 			background-color: gray;
 			display: inline-block;
 			vertical-align: top;
+		}
+		@media screen and (min-width: 0px) and (max-width: 600px){
+
+			.contenedor{
+				width: 100%;
+			}
+			.bloque1{
+				width: 100%;
+				height: 100px;
+				margin-bottom: 10px;
+			}
+			.bloque3{
+				width: 100%;
+			}
+			.bloque4{
+				display: block;
+				margin-bottom: 10px;
+				width: 100%;
+			}
+			.bloque5{
+				width: 100%;
+				margin-bottom: 10px;
+			}
+		}
+
+		@media screen and (min-width: 601px) and (max-width: 768px){
+			
+
+			.contenedor{
+				width: 100%;
+			}
+			.bloque1{
+				width: 100%;
+				height: 100px;
+				margin-bottom: 10px;
+			}
+				.bloque3{
+				width: 100%;
+			}
+			.bloque4{
+				display: block;
+				margin-bottom: 10px;
+				width: 100%;
+			}
+			.bloque5{
+				width: 48%;
+				margin-bottom: 10px;
+			}
+
+		}
+
+		@media screen and (min-width: 769px) and (max-width:1024px){
+			.contenedor{
+				width: 100%;
+			}
+			.bloque1{
+				width: 100%;
+				height: 100px;
+				margin-bottom: 10px;
+			}
+			.bloque3{
+				width: 100%;
+			}
+			.bloque4{
+				display: block;
+				margin-bottom: 10px;
+				width: 100%;
+			}
+			.bloque5{
+				width: 48%;
+				margin-bottom: 10px;
+			}
 		}
 	</style>
 </head>
