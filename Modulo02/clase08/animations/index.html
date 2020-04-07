@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		@keyframes fondo{
+			0%{
+				background-color: red;
+			}
+			20%{
+				background-color: green;
+			}
+			50%{
+				background-color: yellow
+			}
+			80%{
+				background-color: pink;
+			}
+			
+			100%{
+				background-color: red;
+			}
+		}
+
+
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			animation-name: fondo;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+
+			/*animation-name:movimiento;
+			animation-duration: 4s; 
+			animation-iteration-count: 1*/
+		}
+	</style>
+</head>
+<body>
+
+<div class="box"></div>	
+</body>
+</html>
+
