@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.seleccionado{
+			color: blue;
+		}
+		.nav-site ul{
+			text-align: center;
+		}
+		.nav-site ul li{
+			display: inline-block;
+			vertical-align: top;
+			padding: 10px 20px;
+			color: black;
+			transition: all 0.4s linear;
+		}
+		.activado{
+			background-color: red;
+			color: white!important;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="nav-site">
+			<ul>
+				<li id="opcion1">Inicio</li>
+				<li id="opcion2">Servicio</li>
+				<li id="opcion3">nostros</li>
+			</ul>
+		</nav>
+	</header>
+	<h1 id="titulo" class=""><span>Titulo</span></h1>
+	<span id="opcion">Opcion</span>
+	<script src="js/main.js"></script>
+</body>
+</html>
