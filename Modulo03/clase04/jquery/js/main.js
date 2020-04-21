@@ -34,14 +34,12 @@ function tarea(){
 */
 
 $("#item1").click(function(){
-	
 	$("#estado").text("Encendido") 
 	$("#estado").removeClass();
 	$("#estado").addClass("encendido");// agregar Texto al elemento
 	//let valor=$("#estado").text() // devulve el valor del texto 
 	//$("#estado").text("<span>Estado</span><strong>Encendido</strong>")
 	//$("#estado").html("<span>Estado: </span><strong>Encendido</strong>")
-
 })
 
 $("#item2").click(function(){
