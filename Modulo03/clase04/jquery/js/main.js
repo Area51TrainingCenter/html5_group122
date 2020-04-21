@@ -12,12 +12,20 @@ function tarea(){
 	console.log("click en boton")
 }
 
-//Jquery agregando escuchador
+//Jquery agregando escuchador */
+/*
+
 $("#item").click(function(){
 
 })
+*/
 
 
+
+
+
+
+/*
 var ele=document.getElementById('item1');
 ele.addEventListener("click",tarea)
 function tarea(){
@@ -26,9 +34,18 @@ function tarea(){
 */
 
 $("#item1").click(function(){
-	$("#estado").text("Encendido")
+	
+	$("#estado").text("Encendido") 
+	$("#estado").removeClass();
+	$("#estado").addClass("encendido");// agregar Texto al elemento
+	//let valor=$("#estado").text() // devulve el valor del texto 
+	//$("#estado").text("<span>Estado</span><strong>Encendido</strong>")
+	//$("#estado").html("<span>Estado: </span><strong>Encendido</strong>")
+
 })
 
 $("#item2").click(function(){
-	$("#estado").text("Apagado")
+	$("#estado").text("Apagado");
+	$("#estado").removeClass();
+	$("#estado").addClass("apagado");
 })
