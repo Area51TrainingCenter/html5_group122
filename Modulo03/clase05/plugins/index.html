@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+
+
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+
+	<!-- Place in the <head>, after the three links -->
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+	  	let opciones={
+	  		animation:"slide",
+	  		direction:"horizontal"
+	  	}
+
+	    $('.flexslider').flexslider(opciones);
+	  });
+	</script>
+	<style>
+		.container{
+			width: 1024px;
+			margin:0 auto;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="caja-superior"> 
+
+			<div class="flexslider">
+				
+				<ul class="slides">
+					<li>
+						<img src="https://blog.fromdoppler.com/wp-content/uploads/20180321-MejorarDGWeb-Main.png" alt="">
+					</li>
+					<li>
+						<img src="https://3.bp.blogspot.com/-A7Zxi2M5rlA/VhbOjSNbM3I/AAAAAAABG_Y/f3thou_EnO0/s1600/camw1n-batman-v-superman-fan-header-700x300.jpg" alt="">
+					</li>
+					<li>
+						<img src="https://via.placeholder.com/700x300" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="columna1"></div>
+		<div class="columna2"></div>
+	</div>
+</body>
+</html>
