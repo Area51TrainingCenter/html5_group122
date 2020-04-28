@@ -1,0 +1,42 @@
+body{
+	font-family: arial;
+}
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+			max-width: 970px;
+			margin:0 auto;
+		}
+.contenido-carosuel{
+			width: 100%;
+
+}
+
+
+
+.box-precio{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.comprar{
+	display: inline-block;
+	background-color: red;
+	width: 100%;
+	padding: 15px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.item-producto{
+	background-color: gray;
+	padding: 10px;
+}
